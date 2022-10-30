@@ -1,0 +1,12 @@
+city-name {
+    width: 100%;
+}
+.today-container {
+    margin-right: 200px;
+    margin-left:1px;
+    --bs-bg-opacity: .3;
+}
+
+.daily-container {
+    --bs-bg-opacity: .3;
+}

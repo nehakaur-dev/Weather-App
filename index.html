@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="src/style.css">
+    
+  </head>
+<body>
+<div class="container border border-dark mt-5">
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-9">
+      <input class="city-name" placeholder="Enter a city name">
+       </input>
+      </div>
+      <div class="col-3">
+       <button style="width: 100%">
+        search
+       </button>
+      </div>
+    </div>
+  </div>
+<div class="container mt-5">
+    <div class="row border border-2 border-primary p-2 bg-primary today-container">
+      <div class="col-12">
+      Melbourne<br/>
+      Sunday
+      </div>
+      <div class="row ">
+         <div class="col-1">
+         ☀
+         </div>
+         <div class="col-4">
+          30&degC
+         </div>     
+         <div class="col-7">
+           Humidity 80%
+          <br/>
+          Wind 19 km/h
+         </div>
+      </div>
+    </div>
+</div>
+<div class="container">
+   <div class="col mt-5">     
+       <strong>
+        5 Days Forecast
+       </strong>   
+   </div>
+</div>
+<div class="container">
+  <div class="row mt-1 mb-5 daily-container">
+    <div class="col-2 border border-2 border-warning p-2 m-2 bg-warning daily-container">
+        Tomorrow 
+        <div class="row">
+          <div class="col-6">
+            🌥
+           </div>
+          <div class="col-6">
+             24&degC
+          </div>
+        </div>
+    </div>
+    <div class="col-2 border border-2 border-warning p-2 m-2 bg-warning daily-container">
+        Tue
+        <div class="row">
+          <div class="col-6">
+           ☀
+           </div>
+          <div class="col-6">
+             27&degC
+          </div>
+    </div>
+    </div>
+    <div class="col-2 border border-2 border-warning p-2 m-2 bg-warning daily-container">
+        Wed 
+        <div class="row">
+          <div class="col-6">
+           🌤 
+          </div>
+          <div class="col-6">
+            22&degC
+          </div>
+        </div>
+      </div>
+    <div class="col-2 border border-2 border-warning p-2 m-2 bg-warning daily-container">
+        Thu
+      <div class="row">
+        <div class="col-6">
+          🌦
+        </div>
+        <div class="col-6">
+         19&degC
+        </div>
+        </div>
+    </div>
+    <div class="col-2 border border-2 border-warning p-2 m-2 bg-warning daily-container">
+        Fri
+      <div class="row">
+        <div class="col-6">
+        🌦 
+        </div>
+        <div class="col-6">
+        18&degC
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
