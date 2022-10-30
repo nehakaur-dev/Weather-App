@@ -10,3 +10,9 @@ city-name {
 .daily-container {
     --bs-bg-opacity: .3;
 }
+#name-url {
+text-decoration: none;
+color: blue;
+
+
+}
